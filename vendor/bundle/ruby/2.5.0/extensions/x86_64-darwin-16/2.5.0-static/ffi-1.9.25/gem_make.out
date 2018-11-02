@@ -1,0 +1,25 @@
+current directory: /Users/kazoo0330/workspace/port/daily#closet/vendor/bundle/ruby/2.5.0/gems/ffi-1.9.25/ext/ffi_c
+/Users/kazoo0330/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20181101-45718-17362vt.rb extconf.rb
+checking for ffi.h... no
+checking for ffi.h in /usr/local/include,/usr/include/ffi... yes
+checking for ffi_call() in -lffi... yes
+checking for ffi_closure_alloc()... no
+checking for ffi_raw_call()... no
+checking for shlwapi.h... no
+checking for ruby/thread.h... yes
+checking for rb_thread_blocking_region()... no
+checking for rb_thread_call_with_gvl()... yes
+checking for rb_thread_call_without_gvl()... yes
+creating extconf.h
+creating Makefile
+
+current directory: /Users/kazoo0330/workspace/port/daily#closet/vendor/bundle/ruby/2.5.0/gems/ffi-1.9.25/ext/ffi_c
+make "DESTDIR=" clean
+
+current directory: /Users/kazoo0330/workspace/port/daily#closet/vendor/bundle/ruby/2.5.0/gems/ffi-1.9.25/ext/ffi_c
+make "DESTDIR="
+Configuring libffi
+configure: error: unsafe absolute working directory name
+make: *** ["/Users/kazoo0330/workspace/port/daily#closet/vendor/bundle/ruby/2.5.0/gems/ffi-1.9.25/ext/ffi_c/libffi-x86_64-darwin16"/.libs/libffi_convenience.a] Error 1
+
+make failed, exit code 2
