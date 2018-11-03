@@ -1,6 +1,6 @@
-class CreatePosts < ActiveRecord::Migration[5.2]
+class CreateCoordintates < ActiveRecord::Migration[5.2]
   def change
-    create_table :posts do |t|
+    create_table :coordintates do |t|
       t.string :title
       t.text :content
       t.string :image
